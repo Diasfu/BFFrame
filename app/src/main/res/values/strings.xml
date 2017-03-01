@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">BFFrame</string>
+    <string name="first_select"><u>Select From The Following:</u></string>
+    <string name="foster_me_button">Pick ME to \nLook after!</string>
+    <string name="next_button">Next BFF</string>
+    <string name="name">Name: </string>
+    <string name="foster_time">Foster Time: </string>
+    <string name="age">Age: </string>
+    <string name="gender">Gender: </string>
+    <string name="about"><u>About: </u></string>
+    <string name="no_cats">No Cats</string>
+    <string name="no_dogs">No Dogs</string>
+    <string name="vet_visits">Vet Visits</string>
+    <string name="no_children">No Children</string>
 </resources>

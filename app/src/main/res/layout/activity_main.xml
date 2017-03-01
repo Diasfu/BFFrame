@@ -10,6 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="@color/colorWhite"
     tools:context="com.example.android.bfframe.MainActivity">
 
     <ImageView
@@ -25,7 +26,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select from the following"
+            android:text="@string/first_select"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
             android:textSize="20dp"
             android:gravity="center"/>
         <LinearLayout
@@ -33,15 +36,17 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Cat"
-                android:paddingLeft="50dp"/>
+                android:layout_weight="1"
+                android:gravity="center"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Dog"
-                android:paddingLeft="150dp"/>
+                android:layout_weight="1"
+                android:gravity="center"/>
 
         </LinearLayout>
 
@@ -58,6 +63,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/ic_pets_black_48dp"
             android:layout_weight="1"
+            android:background="@color/colorWhite"
             android:onClick="onClickCatButton"
             />
         <ImageButton
@@ -66,9 +72,9 @@
             android:layout_height="match_parent"
             android:src="@drawable/ic_pets_black_48dp"
             android:layout_weight="1"
+            android:background="@color/colorWhite"
             android:onClick="onClickDogButton"
             />
     </LinearLayout>
-
    
 </LinearLayout>
